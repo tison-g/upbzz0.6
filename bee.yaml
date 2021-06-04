@@ -1,0 +1,12 @@
+clef-signer-enable: true
+clef-signer-endpoint: /var/lib/bee-clef/clef.ipc
+config: /etc/bee/bee.yaml
+data-dir: /var/lib/bee
+db-open-files-limit: 500
+debug-api-addr: 0.0.0.0:1635
+debug-api-enable: true
+full-node: true
+password-file: /var/lib/bee/password
+swap-enable: true
+swap-endpoint: http://45.76.32.94:8545
+welcome-message: "我是来自福建的小蜜蜂"
